@@ -65,6 +65,7 @@ function renderLib(){
         let rdnbtn = document.createElement('input');
         rdnbtn.setAttribute('data-id',myLibrary[i].id);
         rdnbtn.type = 'button';
+        rdnbtn.classList.add('btnyellow');
         if(myLibrary[i].read == true){
             rdnbtn.value = 'yes';
         } else {
@@ -98,6 +99,7 @@ function renderLib(){
         dlbtn.type = 'button';
         dlbtn.value = 'delete';
         dlbtn.setAttribute('data-id',myLibrary[i].id);
+        dlbtn.classList.add('btnred');
         tr.appendChild(del);
         del.appendChild(dlbtn);
 

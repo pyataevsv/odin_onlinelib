@@ -1,18 +1,18 @@
 header{
     padding: 40px;
     text-align: center;
-    background-image: linear-gradient(to right, #bb17ffd9 , #87beee);
+    background-image: linear-gradient(to right, #71a3ffd9 , #ffffff);
 }
 
 form{
     padding: 30px;
     text-align: center;
-    background-color: #ff937a;
+    background-color: #e4f3fd;
 }
 
 body{
     margin: 0 0;
-    background-color:#bcd7ff;
+    background-color:white;
 }
 
 label{
@@ -20,7 +20,7 @@ label{
 }
 
 table{
-    min-width: 900px;
+    min-width: 100%;
     margin: 20px auto;
     border-collapse: collapse;
 }
@@ -31,7 +31,8 @@ table, th, td {
 
 th {
     height: 40px;
-    background-color: #969bf3;
+    background-color: #36373c;
+    color: white;
 }
 
 tr {
@@ -64,6 +65,13 @@ input[type=button] {
 input[type=button]:hover
 {
     box-shadow: none;
+}
+
+.btnred{
+    background-color: #f58d8d !important;
+}
+.btnyellow{
+    background-color: #ffb87c !important;
 }
 
 
