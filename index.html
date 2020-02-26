@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Lib</title>
+    <link type="text/css" rel='stylesheet' href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Online Library.</h1>
+        <p>Make your online library here.</p>
+    </header>
+    
+    <form>
+        <label for='title'>Title:</label>
+        <input type="text" id="title" name="title">
+        <label for='author'>Author:</label>
+        <input type='text' id='author' name='pagesum'>
+        <label for='pagesum'>Pages:</label>
+        <input type='text' id='pagesum' name='pagesum'>
+        <label for='readen'>Read:</label>
+        <input type="checkbox" id='readen' name='readen' value='123'>
+        <input type="button" id='submit' value="Add" onclick="addNewBook()">
+    </form>
+    <div class="content">
+        <table class="libtable">
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Readen</th>
+                <th>Remove</th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+<script src="sctipt.js"></script>
+</html>
